@@ -54,22 +54,22 @@ ch: 6 # 6 or 3
 
 一、多模态数据集结构
 
-                |-datasets
-                        |-images
-                                  |-train
-                                            |-a.jpg
-                                  |-val
-                                            |-b.jpg
-                        |-image  # 额外的图片文件夹，放红外图，名称与原图对应
-                                  |-train
-                                            |-a.jpg
-                                  |-val
-                                            |-b.jpg        
-                        |-labels  # 双模态共用一个标签
-                                  |-train
-                                            |-a.txt
-                                  |-val
-                                            |-b.txt
+    |-datasets
+            |-images
+                      |-train
+                                |-a.jpg
+                      |-val
+                                |-b.jpg
+            |-image  # 额外的图片文件夹，放红外图，名称与原图对应
+                      |-train
+                                |-a.jpg
+                      |-val
+                                |-b.jpg        
+            |-labels  # 双模态共用一个标签
+                      |-train
+                                |-a.txt
+                      |-val
+                                |-b.txt
 
 二、训练结果
 蓝色为双模态RGB+IR，红色为单模态RGB
