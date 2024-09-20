@@ -1,4 +1,4 @@
-# YOLOv8-Multi-Modal-Fusion-Network-RGB-IR-
+# YOLOv8-Multi-Modal-Fusion-Network-RGB-IR
 ## 一、参数说明
 在YOLOv8源码的基础上，此代码新增参数如下：  
 改为3即变为原YOLOv8模型,6则为RGB+红外,只能3或6其他通道数会报错，两个文件修改要保持一致
